@@ -1,0 +1,427 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="index, follow"><title>XDC 文件中的合法命令 • ASIC Fans</title><meta name="description" content="XDC 文件中的合法命令 - PYGC"><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/css/nanoreset.min.css"><link rel="stylesheet" href="/css/theme.css"><link rel="search" type="application/opensearchdescription+xml" href="/atom.xml" title="ASIC Fans"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.css" integrity="sha384-bsHo4/LA+lkZv61JspMDQB9QP1TtO4IgOf2yYS+J6VdAYLVyx1c3XKcsHh0Vy8Ws" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.js" integrity="sha384-4z8mjH4yIpuK9dIQGR1JwbrfYsStrNK6MP+2Enhue4eyo0XlBDXOIPc8b6ZU0ajz" crossorigin="anonymous"></script><link rel="alternate" href="/atom.xml" title="ASIC Fans" type="application/atom+xml">
+</head><body><div class="wrap" id="barba-wrapper"><header><h1 class="branding"><a href="/" title="ASIC Fans"><img class="logo-image" src="/blog.svg" alt="logo"></a></h1><h1 class="titletext"><a href="/">ASICFANS</a></h1><ul class="nav nav-list"><li class="nav-list-item"><a class="nav-list-link no-barba" href="/" target="_self">首页</a></li><li class="nav-list-item"><a class="nav-list-link no-barba" href="/about" target="_self">关于</a></li><li class="nav-list-item"><a class="nav-list-link no-barba" href="/tags" target="_self">分类</a></li><li class="nav-list-item"><a class="nav-list-link no-barba" href="/archives" target="_self">归档</a></li><li class="nav-list-item"><a class="nav-list-link no-barba" href="https://github.com/PYGC" target="_blank">GITHUB</a></li><li class="nav-list-item"><a class="nav-list-link no-barba" href="/atom.xml" target="_self">RSS</a></li></ul></header><div class="barba-container"><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">XDC 文件中的合法命令</h1><div class="post-info"><a></a>2019-11-20</div><div class="post-content"><p>&#x65F6;&#x5E8F;&#x7EA6;&#x675F;</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Timing Constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">create_clock</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">create_generated_clock</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">group_path</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_clock_groups</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_clock_latency</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_data_check</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_disable_timing</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_false_path</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_input_delay</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_output_delay</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_max_delay</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_min_delay</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_multicycle_path</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_case_analysis</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_clock_sense</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_clock_uncertainty</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_input_jitter</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_max_time_borrow</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_propagated_clock</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_system_jitter</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_external_delay</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_bus_skew</td>
+</tr>
+</tbody>
+</table>
+<p>&#x7269;&#x7406;&#x7EA6;&#x675F;</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Physical Constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">add_cells_to_pblock</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">create_pblock</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">delete_pblock</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">remove_cells_from_pblock</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">resize_pblock</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">create_macro</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">delete_macros</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">update_macro</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_package_pin_val</td>
+</tr>
+</tbody>
+</table>
+<p>&#x8C03;&#x8BD5;&#x7EA6;&#x675F;</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Debug Constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">create_debug_core</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">create_debug_port</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">connect_debug_port</td>
+</tr>
+</tbody>
+</table>
+<p>&#x529F;&#x8017;&#x7EA6;&#x675F;</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Power Constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">set_power_opt</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_switching_activity</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">reset_switching_activity</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_operating_conditions</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">reset_operating_conditions</td>
+</tr>
+</tbody>
+</table>
+<p>&#x8C41;&#x514D;&#x7EA6;&#x675F;</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Waiver Constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">create_waiver</td>
+</tr>
+</tbody>
+</table>
+<p>&#x4E00;&#x822C;&#x7528;&#x9014;</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">General Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">set</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">expr</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">list</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">filter</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">current_instance</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_hierarchy_separator</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_hierarchy_separator</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_property</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_property</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_units</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">endgroup</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">startgroup</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">create_property</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">current_design</td>
+</tr>
+</tbody>
+</table>
+<p>&#x7F51;&#x8868;&#x7EA6;&#x675F;</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Netlist Constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">set_load</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_logic_dc</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_logic_one</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">set_logic_zero</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">set_logic_unconnected</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">make_diff_pair_ports</td>
+</tr>
+</tbody>
+</table>
+<p>&#x8BBE;&#x5907;&#x5BF9;&#x8C61;&#x67E5;&#x8BE2;</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Device Object Query</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">get_iobanks</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_package_pins</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">get_sites</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_bel_pins</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">get_bels</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_nodes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">get_pips</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_site_pins</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">get_site_pips</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_slrs</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">get_tiles</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_wires</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">get_pkgpin_bytegroups</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_pkgpin_nibbles</td>
+</tr>
+</tbody>
+</table>
+<p>&#x65F6;&#x5E8F;&#x5BF9;&#x8C61;&#x67E5;&#x8BE2;</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Timing Object Query</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">all_clocks</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_path_groups</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">get_clocks</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_generated_clocks</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">get_timing_arcs</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_speed_models</td>
+</tr>
+</tbody>
+</table>
+<p>&#x5E73;&#x9762;&#x56FE;&#x5BF9;&#x8C61;&#x67E5;&#x8BE2;</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Floorplan Object Query</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">get_pblocks</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_macros</td>
+</tr>
+</tbody>
+</table>
+<p>&#x7F51;&#x8868;&#x5BF9;&#x8C61;&#x67E5;&#x8BE2;</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Netlist Object Query</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">all_cpus</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">all_dsps</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">all_fanin</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">all_fanout</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">all_hsios</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">all_inputs</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">all_outputs</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">all_rams</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">all_registers</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">all_ffs</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">all_latches</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_cells</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">get_nets</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_pins</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">get_ports</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">get_debug_cores</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">get_debug_ports</td>
+</tr>
+</tbody>
+</table>
+</div></article></div></main><footer><div class="paginator"><a class="prev" href="/2019/11/20/从源码编译安装-iverilog/">前一个</a><a class="next" href="/2019/11/19/Verilog-测试中的常见系统函数/">后一个</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'kismetliu';
+var disqus_identifier = '2019/11/20/XDC-文件中的合法命令/';
+var disqus_title = 'XDC 文件中的合法命令';
+var disqus_url = 'http://yoursite.com/2019/11/20/XDC-文件中的合法命令/';
+(function () {
+    var dsq = document.createElement('script'); dsq.async = true;
+    dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//kismetliu.disqus.com/count.js" async></script><div class="copyright"><p>&copy; 2019 <a href="https://blog.asicfans.com">Kismet Liu</a><br>Powered by <a href="https://hexo.io/" rel="noreferrer" target="_blank">Hexo</a></p></div></footer></div></div><script>var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-86660611-1']);
+_gaq.push(['_trackPageview']);
+
+(function () {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();</script><script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script><script>document.addEventListener('DOMContentLoaded', function() {
+    Barba.Pjax.start()
+})</script></body></html>
