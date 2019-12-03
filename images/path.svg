@@ -1,0 +1,32 @@
+<svg width="200" height="400" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .gate:hover {fill:green !important;stroke:green !important; stroke-width:4;}
+    </style>
+    <path d="M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80" fill="transparent" stroke="black" stroke-width="2"/>
+
+    <circle class="gate" cx="10" cy="80" r="3" fill="red" />
+    <path class="gate" d="M10 80 40 10" stroke="red" stroke-width="2" />
+    <circle class="gate" cx="40" cy="10" r="3" fill="red" />
+    
+    <circle class="gate" cx="65" cy="10" r="3" fill="red" />
+    <path class="gate" d="M65 10 95 80" stroke="red" stroke-width="2" />
+    <circle class="gate" cx="95" cy="80" r="3" fill="red" />
+    <path class="gate" d="M95 80 125 150" stroke="blue" stroke-width="2"><title>line</title></path>
+    <circle class="gate" cx="125" cy="150" r="3" fill="blue" />
+
+    <circle class="gate" cx="150" cy="150" r="3" fill="red" />
+    <path class="gate" d="M150 150 180 80" stroke="red" stroke-width="2" />
+    <circle class="gate" cx="180" cy="80" r="3" fill="red" />
+
+    <path d="M10 300 Q 52.5 230 95 300 T 180 300" fill="transparent" stroke="black" stroke-width="2"/>
+
+    <circle class="gate" cx="10" cy="300" r="3" fill="red" />
+    <path class="gate" d="M10 300 52.5 230" stroke="red" stroke-width="2" />
+    <circle class="gate" cx="52.5" cy="230" r="3" fill="red" />
+    <path class="gate" d="M52.5 230 95 300" stroke="red" stroke-width="2" />
+    <circle class="gate" cx="95" cy="300" r="3" fill="red" />
+    <path class="gate" d="M95 300 137.5 370" stroke="blue" stroke-width="2"><title>line</title></path>
+    <circle class="gate" cx="137.5" cy="370" r="3" fill="blue" />
+    <path class="gate" d="M137.5 370 180 300" stroke="blue" stroke-width="2" />
+    <circle class="gate" cx="180" cy="300" r="3" fill="red" />
+</svg>

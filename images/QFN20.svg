@@ -1,0 +1,402 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .uart:hover{fill:green;}
+        .overed:hover{fill:orange;}
+        .show:hover .hidden{display:block;}
+        .hidden {display:none; fill:black;}
+    </style>
+    <path d="m50 50
+            l0 600
+            l600 0
+            l0 -600
+            l-600 0"
+            stroke="black" 
+            stroke-width="2" 
+            stroke-linejoin="round" 
+            fill="white"/>
+        
+    <g>
+        <g class="overed show">
+            <text x="75" y="185" font-size="30" class="hidden">1</text>
+            <path d="m50 150
+                    l50 0
+                    a 25 25 0 0 1 0 50 
+                    l-50 0
+                    l0 -50"
+                    stroke="black" 
+                    stroke-width="1" 
+                    stroke-linejoin="round" 
+                    stroke-dasharray="5 5"
+                    fill="transparent"
+                    fill-opacity="0.5"
+                    transform="translate(0,0)"
+                    class="overed"
+                    >
+                <title>nNRST</title>
+            </path>
+            <circle cx="150" cy="175" r="10"/>
+        </g>
+        
+        <g class="overed show">
+            <text x="75" y="273" font-size="30" class="hidden">2</text>
+            <path d="m50 150
+                    l50 0
+                    a 25 25 0 0 1 0 50 
+                    l-50 0
+                    l0 -50"
+                    stroke="black" 
+                    stroke-width="1" 
+                    stroke-linejoin="round" 
+                    stroke-dasharray="5 5"
+                    fill="transparent"
+                    fill-opacity="0.5"
+                    transform="translate(0,87)"
+                    class="overed">
+                <title>PD0-OSC_IN</title>
+            </path>
+        </g>
+
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,174)"
+                class="overed">
+            <title>PD1-OSC_OUT</title>
+        </path>
+
+        <g>
+            <path   id="uart1" 
+                    d="m50 150
+                    l50 0
+                    a 25 25 0 0 1 0 50 
+                    l-50 0
+                    l0 -50"
+                    stroke="black" 
+                    stroke-width="1" 
+                    stroke-linejoin="round" 
+                    stroke-dasharray="5 5"
+                    fill="transparent"
+                    fill-opacity="0.5"
+                    transform="translate(0,261)"
+                    class="uart">
+                <title>AAAA</title>
+            </path>
+
+            <path   id="uart2" 
+                    d="m50 150
+                    l50 0
+                    a 25 25 0 0 1 0 50 
+                    l-50 0
+                    l0 -50"
+                    stroke="black" 
+                    stroke-width="1" 
+                    stroke-linejoin="round" 
+                    stroke-dasharray="5 5"
+                    fill="transparent"
+                    fill-opacity="0.5"
+                    transform="translate(0,350)"
+                    class="uart">
+                <title>BBBB</title>
+            </path>
+            
+            <path d="m50 700
+                    l0 50
+                    l80 0
+                    l0 -50
+                    l-80 0"
+                    stroke="black" 
+                    stroke-width="2" 
+                    stroke-linejoin="round" 
+                    fill="white"/>
+
+            <text x="63" y="733" font-size="20">UART</text>
+            
+            <path d="m50 700
+                    l0 50
+                    l80 0
+                    l0 -50
+                    l-80 0"
+                    stroke="black" 
+                    stroke-width="2" 
+                    stroke-linejoin="round" 
+                    fill="green"
+                    fill-opacity="0.5"
+                    onmouseover='document.getElementById("uart1").style.fill = "green"; document.getElementById("uart2").style.fill = "green"' 
+                    onmouseout='document.getElementById("uart1").style.fill = "transparent"; document.getElementById("uart2").style.fill = "transparent"'
+                />
+        </g>
+    </g>
+
+    <g transform="translate(700,0) rotate(90)">
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,0)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,87)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,174)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,261)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,350)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+    </g>
+
+<g transform="translate(700,700) rotate(180)">
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,0)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+        
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,87)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,174)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,261)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,350)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+    </g>
+
+<g transform="translate(0,700) rotate(270)">
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,0)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+        
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,87)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,174)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,261)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+
+        <path d="m50 150
+                l50 0
+                a 25 25 0 0 1 0 50 
+                l-50 0
+                l0 -50"
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                stroke-dasharray="5 5"
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,350)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+    </g>
+
+    <g>
+        <path d="m200 200
+                m0 50
+                l0 250
+                l300 0
+                l0 -300
+                l-250 0
+                l-50 50" 
+                stroke="black" 
+                stroke-width="1" 
+                stroke-linejoin="round" 
+                fill="transparent"
+                fill-opacity="0.5"
+                transform="translate(0,0)"
+                class="overed">
+            <title>nNRST</title>
+        </path>
+    </g>
+</svg>

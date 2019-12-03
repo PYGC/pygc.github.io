@@ -643,7 +643,7 @@ pre .class .title {
 pre .tag,
 pre .name,
 pre .attribute {
-  color: #000080;
+  color: #0ff;
   font-weight: normal;
 }
 pre .regexp,

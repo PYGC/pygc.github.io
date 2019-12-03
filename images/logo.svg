@@ -1,0 +1,41 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        
+    </style>
+    <path d="   m50 50 
+                m0 50 
+                l0 100
+                l50 0
+                l0 50
+                l100 0
+                l50 -50
+                l0 -50
+                l-50 0
+                l-50 50
+                l-50 -50
+                l50 -50
+                l0 -50
+                l-50 0" 
+                fill="#0041a3"/>
+    <path d="   m150 100 
+                l0 50
+                l50 0
+                l50 -50
+                l50 50
+                l-50 50
+                l0 50
+                l50 0
+                l50 -50
+                l0 -100
+                l-50 0
+                l0 -50
+                l-100 0
+                l-50 50" 
+                fill="#f79900"/>
+                
+    <text x="50" y="320" font-family="fair code" font-size="80" font-weight="1000" font-style="italic" fill="#0041a3" >MM</text>
+    <text x="230" y="320" font-family="fair code" font-size="80" font-weight="1000" font-style="normal" fill="#f79900" >32</text>
+    <text x="330" y="320" font-family="fair code" font-size="80" font-weight="1000" font-style="normal" fill="#0041a3" >MCU</text>
+    <text x="320" y="80" font-family="fair code" font-size="30" font-weight="1000" font-style="italic" fill="#0041a3" >MindMotion</text>
+    <text x="370" y="120" font-family="fair code" font-size="20" font-weight="1000" font-style="normal" fill="#0041a3" >SOC Solutions</text>
+</svg>
